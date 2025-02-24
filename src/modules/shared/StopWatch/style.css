@@ -1,0 +1,16 @@
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: #777;
+}
+
+.time {
+  font-size: 18px;
+  font-family: Montserrat;
+  color: white;
+}

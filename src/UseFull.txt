@@ -1,0 +1,44 @@
+
+  // const checkHypothesis = (hypo: HypoType) => {
+  //   let hyps = [] as any[]
+  //   const { symptoms, diseases, threshold } = hypo
+
+  //   let sympsData: any = {}
+  //   if (clinical_case) {
+  //     for (let symp of clinical_case.symptom) {
+  //       if (symptoms.includes(symp.name)) {
+  //         sympsData[symp.name] = 1
+  //       } else {
+  //         sympsData[symp.name] = 0
+  //       }
+  //     }
+  //     let hypoData = {
+  //       disease: diseases.split(','),
+  //       symptoms: sympsData,
+  //     }
+  //     infereHypothesis(hypoData).then((resp) => {
+  //       console.log(resp)
+  //       hyps = Object.keys(resp).map((key) => {
+  //         let obj: { key: string; val: boolean } = { key: '', val: false }
+  //         if (resp[key] >= threshold + 0.1) {
+  //           obj.key = key
+  //           obj.val = true
+  //         } else {
+  //           obj.key = key
+  //           obj.val = false
+  //         }
+  //         return obj
+  //       })
+  //       console.log({ hyps })
+  //     })
+  //   }
+  //   return hyps?.map((hyp) => (
+  //     <Chip
+  //       id={hyp.key}
+  //       label={hyp.key}
+  //       variant='outlined'
+  //       size='small'
+  //       color={hyp.val ? 'success' : 'error'}
+  //     />
+  //   ))
+  // }

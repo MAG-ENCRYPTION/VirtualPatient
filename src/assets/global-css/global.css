@@ -1,0 +1,21 @@
+.y-scroll {
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+
+.y-scroll::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.heart-beat {
+  animation: beat 0.8s infinite alternate;
+  transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat {
+  to {
+    transform: scale(1.2);
+  }
+}
